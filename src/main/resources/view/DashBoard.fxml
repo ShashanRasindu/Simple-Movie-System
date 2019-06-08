@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="root" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.shashan.client.controller.DashBoardController">
+   <children>
+      <Label fx:id="dash" layoutX="182.0" layoutY="22.0" text="DASH BOARD" textAlignment="CENTER" textFill="RED">
+         <font>
+            <Font name="System Bold" size="33.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imgMM" fitHeight="116.0" fitWidth="166.0" layoutX="25.0" layoutY="154.0" onMouseClicked="#navigate" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/movies.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="22.0" layoutY="283.0" text="Manage Movies">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imgMA" fitHeight="139.0" fitWidth="132.0" layoutX="252.0" layoutY="130.0" onMouseClicked="#navigate" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/actor.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="240.0" layoutY="283.0" text="Manage Actor">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imgRA" fitHeight="132.0" fitWidth="129.0" layoutX="436.0" layoutY="136.0" onMouseClicked="#navigate" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/register.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="426.0" layoutY="283.0" text="Register Actor">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
