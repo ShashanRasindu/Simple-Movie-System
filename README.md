@@ -6,7 +6,7 @@ git init
 ```
 2. Clone the repo
 ```sh
-git clone https://github.com/ShashanRasindu/Simple-Movie-System
+git clone https://github.com/ShashanRasindu/Simple-Movie-System-Spring-Data-JPA
 ```
 3. Import project via Intellij Idea
 
@@ -54,4 +54,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Shashan Rasindu - [@linkedin](https://www.linkedin.com/in/shashan-rasindu-a44308158/) - shashanrasindu@gmail.com
 
-Project Link: [https://github.com/ShashanRasindu/Simple-Movie-System](https://github.com/ShashanRasindu/Simple-Movie-System)
+Project Link: [https://github.com/ShashanRasindu/Simple-Movie-System-Spring-Data-JPA](https://github.com/ShashanRasindu/Simple-Movie-System-Spring-Data-JPA)
